@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+python-twitter = "*"
+pandas = "*"
+xlwt = "*"
+openpyxl = "*"
+matplotlib = "*"
+
+[requires]
+python_version = "3.7"
